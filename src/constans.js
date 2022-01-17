@@ -1,3 +1,7 @@
+import facebook from '../src/images/facebook.svg';
+import twitter from '../src/images/twitter.svg';
+import instagram from '../src/images/instagram.svg';
+
 export const menus = [
   { id: 1, title: 'Home' },
   { id: 2, title: 'Services' },
@@ -5,8 +9,8 @@ export const menus = [
   { id: 4, title: 'Contact us' },
 ];
 
-export const social = [
-  { id: 1, title: 'facebook' },
-  { id: 1, title: 'twitter' },
-  { id: 1, title: 'instagram' },
+export const socials = [
+  { id: 1, title: 'facebook icon', img: facebook },
+  { id: 1, title: 'twitter icon', img: twitter },
+  { id: 1, title: 'instagram icon', img: instagram },
 ];

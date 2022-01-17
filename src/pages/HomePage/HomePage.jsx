@@ -1,7 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
+
+import Hero from '../../components/Hero';
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <Wrapper>
+      <Hero />
+    </Wrapper>
+  );
 };
+
+const Wrapper = styled.main`
+  padding-top: 40px;
+`;
 
 export default HomePage;
