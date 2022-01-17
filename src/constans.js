@@ -11,6 +11,6 @@ export const menus = [
 
 export const socials = [
   { id: 1, title: 'facebook icon', img: facebook },
-  { id: 1, title: 'twitter icon', img: twitter },
-  { id: 1, title: 'instagram icon', img: instagram },
+  { id: 2, title: 'twitter icon', img: twitter },
+  { id: 3, title: 'instagram icon', img: instagram },
 ];

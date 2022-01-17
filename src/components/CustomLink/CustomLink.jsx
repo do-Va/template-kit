@@ -44,6 +44,11 @@ const Link = styled.a`
   &:hover::after {
     transform: scale(1);
   }
+
+  & img {
+    min-width: 24px;
+    height: 24px;
+  }
 `;
 
 export default CustomLink;

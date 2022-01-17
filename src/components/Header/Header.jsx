@@ -17,11 +17,7 @@ const Header = () => {
 };
 
 const Wrapper = styled.header`
-  max-width: 1440px;
-  height: 100vh;
-
-  margin: 0 auto;
-  padding: 32px 130px 0;
+  width: 100%;
 
   display: flex;
   align-items: center;

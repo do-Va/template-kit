@@ -6,16 +6,14 @@ import logo from '../../images/Logo2.svg';
 const Logo = () => {
   return (
     <LogoContainer>
-      <Image src={logo} />
+      <img src={logo} alt="Logo" />
     </LogoContainer>
   );
 };
 
 const LogoContainer = styled.div`
-  width: 52px;
+  min-width: 52px;
   height: 52px;
 `;
-
-const Image = styled.img``;
 
 export default Logo;

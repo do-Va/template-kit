@@ -4,6 +4,7 @@ const GlobalStyles = createGlobalStyle`
   :root {
     // Colors
     --clr-primary: #0052CC;
+    --clr-primary-drk: #003c97;
     --clr-secondary: #172B4D;
     --clr-mc-fanning: #42526E;
     --clr-primary-20: #0052cc33;
@@ -22,7 +23,8 @@ const GlobalStyles = createGlobalStyle`
     --clr-primary-paragraph: #5B6B88;
 
     // Font Size
-    --fs-s: 1.2rem; // 12px
+    --fs-xs: 1.2rem; // 12px
+    --fs-s: 1.3rem; // 13px
     --fs-m: 1.4rem; // 14px
     --fs-l: 1.6rem; // 16px
     --fs-xl: 1.8rem; // 18px
@@ -82,6 +84,7 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
+    font-weight: var(--fw-regular);
   }
 
   img, picture, video, canvas, svg {
