@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import CustomButton from '../CustomButton';
+import CustomButton from '../../CustomButton';
 
 const TextBox = () => {
   return (
@@ -32,7 +32,6 @@ const TextBox = () => {
 };
 
 const Wrapper = styled.div`
-  margin-top: 65px;
   max-width: 619px;
   color: var(--clr-primary-paragraph);
 `;
@@ -76,24 +75,30 @@ const InformationLink = styled.a`
 `;
 
 const Scroll = styled.div`
-  max-width: 150px;
+  height: 150px;
   font-size: var(--fs-s);
   margin-top: 48px;
   font-weight: var(--fw-medium);
   color: var(--clr-primary);
+  position: relative;
 
   display: flex;
-  align-items: center;
   gap: 16px;
 
-  transform-origin: 10px 10px;
-  transform: rotate(90deg);
+  p {
+    transform-origin: 10px 10px;
+    transform: rotate(90deg);
+  }
 `;
 
 const Line = styled.div`
   width: 69px;
   height: 2px;
   background-color: var(--clr-primary);
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 25%;
+  left: -22.5px;
 `;
 
 export default TextBox;

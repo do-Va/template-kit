@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Logo from '../Logo';
-import CustomLinks from '../CustomLinks';
+import Logo from '../../Logo';
+import CustomLinks from '../../CustomLinks';
 
-import { menus, socials } from '../../constans';
+import { menus, socials } from '../../../constans';
 
 const Header = () => {
   return (
@@ -18,6 +18,7 @@ const Header = () => {
 
 const Wrapper = styled.header`
   width: 100%;
+  max-width: 1180px;
 
   display: flex;
   align-items: center;
