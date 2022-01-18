@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
     --clr-input-bg: #EAF1FD;
     --clr-line: #A2BADD;
     --clr-menu-bg: #EAF1FD;
-    --clr-menu-border: #BDD7FE;
+    --clr-feature-bg: #BDD7FE;
     --clr-primary-alt: #4181E0;
 
     --clr-black: #000;

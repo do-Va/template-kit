@@ -47,7 +47,7 @@ const Wrapper = styled.button`
     props.isEmpty ? 'var(--clr-white)' : 'var(--clr-primary)'};
 
   border-radius: 8px;
-  border: 1px solid currentColor;
+  border: 1px solid var(--clr-primary);
   cursor: pointer;
   transition: all 0.2s linear;
 

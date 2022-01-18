@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Header from './Header';
 import TextBox from './TextBox';
-import MidReactangle from '../MidRectangle/MidRectangle';
+import MidReactangle from '../MidRectangle';
 
 import placeholder from '../../images/placeholder.svg';
 
@@ -25,7 +25,7 @@ const Wrapper = styled.section`
   max-width: 1440px;
 
   margin: 0 auto;
-  padding: 0 130px 134px;
+  padding: 32px 130px 134px;
 `;
 
 const Container = styled.div`

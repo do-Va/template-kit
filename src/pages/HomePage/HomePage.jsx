@@ -2,11 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Hero from '../../components/Hero';
+import Feature from '../../components/Feature';
 
 const HomePage = () => {
   return (
     <Wrapper>
       <Hero />
+      <Feature />
     </Wrapper>
   );
 };
