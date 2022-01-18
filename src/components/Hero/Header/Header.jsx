@@ -1,8 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-
 import Logo from '../../Logo';
 import CustomLinks from '../../CustomLinks';
+import { Wrapper } from './styles';
 
 import { menus, socials } from '../../../constans';
 
@@ -15,14 +14,5 @@ const Header = () => {
     </Wrapper>
   );
 };
-
-const Wrapper = styled.header`
-  width: 100%;
-  max-width: 1180px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
 
 export default Header;

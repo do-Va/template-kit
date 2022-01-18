@@ -3,12 +3,14 @@ import styled from 'styled-components';
 
 import Hero from '../../components/Hero';
 import Feature from '../../components/Feature';
+import Testimonial from '../../components/Testimonial';
 
 const HomePage = () => {
   return (
     <Wrapper>
       <Hero />
       <Feature />
+      <Testimonial />
     </Wrapper>
   );
 };

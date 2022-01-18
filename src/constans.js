@@ -4,6 +4,15 @@ import instagram from '../src/images/instagram.svg';
 
 import featureBox from '../src/images/Box.svg';
 
+import testimonialImg from '../src/images/RectangleUser.svg';
+
+import logo1 from '../src/images/logo-1.svg';
+import logo2 from '../src/images/logo-2.svg';
+import logo3 from '../src/images/logo-3.svg';
+import logo4 from '../src/images/logo-4.svg';
+import logo5 from '../src/images/logo-5.svg';
+import logo6 from '../src/images/logo-6.svg';
+
 export const menus = [
   { id: 1, title: 'Home' },
   { id: 2, title: 'Services' },
@@ -43,3 +52,63 @@ export const features = [
     img: featureBox,
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    image: testimonialImg,
+    text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    logo: logo1,
+  },
+  {
+    id: 2,
+    image: testimonialImg,
+    text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    logo: logo2,
+  },
+  {
+    id: 3,
+    image: testimonialImg,
+    text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    logo: logo3,
+  },
+  {
+    id: 4,
+    image: testimonialImg,
+    text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    logo: logo4,
+  },
+  {
+    id: 5,
+    image: testimonialImg,
+    text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    logo: logo5,
+  },
+  {
+    id: 6,
+    image: testimonialImg,
+    text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    logo: logo6,
+  },
+];
+
+export const testimonial = {
+  id: 6,
+  image: testimonialImg,
+  text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
+  author: 'Annette Hawkins',
+  job: 'Art Director of Gillette',
+  logo: logo6,
+};

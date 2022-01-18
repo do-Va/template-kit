@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import CustomLink from '../CustomLink';
+import { Wrapper } from './styles';
 
 const CustomLinks = ({ links }) => {
   return (
@@ -12,11 +12,5 @@ const CustomLinks = ({ links }) => {
     </Wrapper>
   );
 };
-
-const Wrapper = styled.ul`
-  display: flex;
-
-  gap: 35px;
-`;
 
 export default CustomLinks;

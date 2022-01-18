@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import FeatureItem from '../FeatureItem';
+import { Wrapper } from './styles';
 
 import { features } from '../../../constans';
 
@@ -14,11 +14,5 @@ const FeatureItems = () => {
     </Wrapper>
   );
 };
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-`;
 
 export default FeatureItems;
