@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.button`
-  width: 230px;
-  height: 60px;
+  width: ${props => (props.width ? props.width : 230)}px;
+  height: ${props => (props.height ? props.height : 60)}px;
   display: flex;
   align-items: center;
   justify-content: center;

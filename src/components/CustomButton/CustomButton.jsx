@@ -2,13 +2,23 @@ import React from 'react';
 
 import { Wrapper, Arrow } from './styles';
 
-const CustomButton = ({ children, isArrow, isEmpty, fontSize }) => {
+const CustomButton = ({
+  children,
+  isArrow,
+  isEmpty,
+  fontSize,
+  height,
+  width,
+  type,
+}) => {
   return (
     <Wrapper
+      width={width}
+      height={height}
+      type={type}
       isFill
       fontSize={fontSize}
       isEmpty={isEmpty}
-      type="button"
       onClick={() => console.log('tiklandi')}
     >
       {children}

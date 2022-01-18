@@ -14,7 +14,9 @@ const FeatureContent = () => {
         The world today seems to run on apps. If it is something that people can
         interact with, then it’s likely that there is an app available for it.
       </Description>
-      <CustomButton isArrow>Get Started</CustomButton>
+      <CustomButton isArrow type="button">
+        Get Started
+      </CustomButton>
     </Wrapper>
   );
 };

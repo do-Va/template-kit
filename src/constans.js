@@ -104,11 +104,8 @@ export const testimonials = [
   },
 ];
 
-export const testimonial = {
-  id: 6,
-  image: testimonialImg,
-  text: 'Enim fugiat labore commodo incididunt enim quis aute ex et est aliquip Lorem nulla. Eu amet irure minim pariatur ipsum enim laborum aute velit esse tempor aliquip.',
-  author: 'Annette Hawkins',
-  job: 'Art Director of Gillette',
-  logo: logo6,
-};
+export const inputs = [
+  { id: 1, title: 'Your Name' },
+  { id: 2, title: 'Your Mail' },
+  { id: 3, title: 'Password' },
+];

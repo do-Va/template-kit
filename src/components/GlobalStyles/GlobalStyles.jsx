@@ -7,13 +7,15 @@ const GlobalStyles = createGlobalStyle`
     --clr-primary-drk: #003c97;
     --clr-secondary: #172B4D;
     --clr-mc-fanning: #42526E;
-    --clr-primary-20: #0052cc33;
-    --clr-primary-40: #0052cc66;
+    --clr-primary-20: #A3C0EB;
+    --clr-primary-40: #5C91DF;
     --clr-input-bg: #EAF1FD;
     --clr-line: #A2BADD;
     --clr-menu-bg: #EAF1FD;
     --clr-feature-bg: #BDD7FE;
     --clr-primary-alt: #4181E0;
+    --clr-cta-bg: #f5f5f5;
+    --clr-form-line: #899cbe;
 
     --clr-black: #000;
     --clr-white: #fff;

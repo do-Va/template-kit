@@ -24,8 +24,10 @@ const TextBox = () => {
         phrase that highlights your value as a candidate
       </Description>
       <ButtonContainer>
-        <CustomButton isArrow>Get started</CustomButton>
-        <CustomButton isArrow isEmpty>
+        <CustomButton isArrow type="button">
+          Get started
+        </CustomButton>
+        <CustomButton isArrow isEmpty type="button">
           Action Links
         </CustomButton>
       </ButtonContainer>
