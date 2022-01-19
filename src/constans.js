@@ -163,9 +163,52 @@ export const teams = [
     author: 'Annette Hawkins',
     job: 'Art Director of Gillette',
     social: [
-      { id: 1, link: '#', socialIcon: facebook },
-      { id: 2, link: '#', socialIcon: twitter },
-      { id: 3, link: '#', socialIcon: instagram },
+      { id: 1, socialIcon: facebook },
+      { id: 2, socialIcon: twitter },
+      { id: 3, socialIcon: instagram },
+    ],
+  },
+];
+
+export const footerLinks = [
+  {
+    id: 1,
+    title: 'Legals',
+    subLinks: [
+      { id: 1, subLink: '#', subTitle: 'Home' },
+      { id: 2, subLink: '#', subTitle: 'About Us' },
+      { id: 3, subLink: '#', subTitle: 'Contacts' },
+      { id: 4, subLink: '#', subTitle: 'License' },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Products',
+    subLinks: [
+      { id: 1, subLink: '#', subTitle: 'Design Kit' },
+      { id: 2, subLink: '#', subTitle: 'Components' },
+      { id: 3, subLink: '#', subTitle: 'Elements' },
+      { id: 4, subLink: '#', subTitle: 'Illustrations' },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Site Map',
+    subLinks: [
+      { id: 1, subLink: '#', subTitle: 'Icons' },
+      { id: 2, subLink: '#', subTitle: 'Photos' },
+      { id: 3, subLink: '#', subTitle: 'Templates' },
+      { id: 4, subLink: '#', subTitle: 'Fonts' },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Social Media',
+    subLinks: [
+      { id: 1, subLink: '#', subTitle: 'Facebook' },
+      { id: 2, subLink: '#', subTitle: 'Twitter' },
+      { id: 3, subLink: '#', subTitle: 'Instagram' },
+      { id: 4, subLink: '#', subTitle: 'LinkedIn' },
     ],
   },
 ];

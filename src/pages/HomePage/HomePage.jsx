@@ -6,6 +6,7 @@ import Feature from '../../components/Feature';
 import Testimonial from '../../components/Testimonial';
 import CTA from '../../components/CTA';
 import Team from '../../components/Team';
+import Footer from '../../components/Footer';
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Testimonial />
       <CTA />
       <Team />
+      <Footer />
     </Wrapper>
   );
 };
