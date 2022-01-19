@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import TestimonialHeader from './TestimonialHeader';
-import Carousel from './Carousel';
+import CustomHeader from '../CustomHeader';
+import CustomCarousel from '../CustomCarousel';
+import TestimonialItem from './TestimonialItem';
 import { Wrapper, ButtonContainer, Button } from './styles';
 
 import { testimonials } from '../../constans';
@@ -54,9 +55,20 @@ const Testimonial = () => {
 
   return (
     <Wrapper>
-      <TestimonialHeader />
-      <Carousel testimonials={testimonials} index={index} />
-
+      <CustomHeader>
+        <p className="short-text">TESTIMONIAL</p>
+        <h3 className="title">In Their Own Words</h3>
+        <p className="description">
+          Online businesses utilize newsletters to keep their brand top-of-mind
+          for consumers, establishing authority.
+        </p>
+      </CustomHeader>
+      <CustomCarousel
+        Component={TestimonialItem}
+        obj={testimonials}
+        index={index}
+        hidden
+      />
       <ButtonContainer>
         <Button onClick={prevSlide}>
           <img src={leftIcon} alt="left icon" />

@@ -39,8 +39,8 @@ const FormContainer = () => {
         ))}
         <CheckBoxContainer>
           <CheckBox type="checkbox" name="I gree" id="I gree"></CheckBox>
-          <CheckBoxButton for="I gree" id="I gree"></CheckBoxButton>
-          <Label for="I gree">I gree</Label>
+          <CheckBoxButton htmlFor="I gree" id="I gree"></CheckBoxButton>
+          <Label htmlFor="I gree">I gree</Label>
         </CheckBoxContainer>
         <CustomButton width={379} height={50} type="submit">
           Create accounts

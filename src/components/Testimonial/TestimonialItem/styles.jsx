@@ -8,6 +8,7 @@ export const Wrapper = styled.blockquote`
   transition: all 0.3s linear;
 
   opacity: ${props => (props.position === 'activeSlide' ? 1 : 0)};
+
   transform: ${props =>
     props.position === 'activeSlide'
       ? 'translateX(0)'

@@ -5,6 +5,7 @@ import Hero from '../../components/Hero';
 import Feature from '../../components/Feature';
 import Testimonial from '../../components/Testimonial';
 import CTA from '../../components/CTA';
+import Team from '../../components/Team';
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Feature />
       <Testimonial />
       <CTA />
+      <Team />
     </Wrapper>
   );
 };

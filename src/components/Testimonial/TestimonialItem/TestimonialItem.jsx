@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import {
   Wrapper,
@@ -26,7 +26,7 @@ const TestimonialItem = ({
   length,
 }) => {
   return (
-    <Wrapper position={position}>
+    <Wrapper position={position} itemIndex={itemIndex} length={length}>
       <TestimonialImage src={image} />
       <BlockquoteImage src={blockquote} />
       <Container>

@@ -6,6 +6,8 @@ import featureBox from '../src/images/Box.svg';
 
 import testimonialImg from '../src/images/RectangleUser.svg';
 
+import teamImage from '../src/images/TeamUser.svg';
+
 import logo1 from '../src/images/logo-1.svg';
 import logo2 from '../src/images/logo-2.svg';
 import logo3 from '../src/images/logo-3.svg';
@@ -108,4 +110,62 @@ export const inputs = [
   { id: 1, title: 'Your Name' },
   { id: 2, title: 'Your Mail' },
   { id: 3, title: 'Password' },
+];
+
+export const teams = [
+  {
+    id: 1,
+    image: teamImage,
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    social: [
+      { id: 1, link: '#', socialIcon: facebook },
+      { id: 2, link: '#', socialIcon: twitter },
+      { id: 3, link: '#', socialIcon: instagram },
+    ],
+  },
+  {
+    id: 2,
+    image: teamImage,
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    social: [
+      { id: 1, link: '#', socialIcon: facebook },
+      { id: 2, link: '#', socialIcon: twitter },
+      { id: 3, link: '#', socialIcon: instagram },
+    ],
+  },
+  {
+    id: 3,
+    image: teamImage,
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    social: [
+      { id: 1, link: '#', socialIcon: facebook },
+      { id: 2, link: '#', socialIcon: twitter },
+      { id: 3, link: '#', socialIcon: instagram },
+    ],
+  },
+  {
+    id: 4,
+    image: teamImage,
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    social: [
+      { id: 1, link: '#', socialIcon: facebook },
+      { id: 2, link: '#', socialIcon: twitter },
+      { id: 3, link: '#', socialIcon: instagram },
+    ],
+  },
+  {
+    id: 5,
+    image: teamImage,
+    author: 'Annette Hawkins',
+    job: 'Art Director of Gillette',
+    social: [
+      { id: 1, link: '#', socialIcon: facebook },
+      { id: 2, link: '#', socialIcon: twitter },
+      { id: 3, link: '#', socialIcon: instagram },
+    ],
+  },
 ];
